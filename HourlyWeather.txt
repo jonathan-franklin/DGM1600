@@ -21,6 +21,7 @@ WEDNESDAY JANUARY 11, 2017
   05:58PM   --   39 degrees F    --    N/A             --    9 mph
   06:56PM   --   38 degrees F    --    N/A             --    6 mph
   07:56PM   --   39 degrees F    --    N/A             --    6 mph
+  08:56PM   --   36 degrees F    --    Light Rain      --    16 mph
 
 THURSDAY JANUARY 12, 2017
   12:56AM   --   32 degrees F    --    N/A             --    CALM
