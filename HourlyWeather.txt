@@ -1,5 +1,5 @@
-This file will log temperature, precipitation, and wind speeds in Orem, UT, 
-and Shanghai, China, on an hourly basis.
+This file will log temperature, precipitation, and wind speeds in Orem, UT;
+Shanghai, China; Moscow, Russia; and *** on an hourly basis.
 
 UTAH
 ----------------------------------------------------------------------------
@@ -46,4 +46,9 @@ THURSDAY JANUARY 12, 2017
 SHANGHAI
 ----------------------------------------------------------------------------
   11:32AM   --   48 degrees F    --    Light Rain      --    4 mph
+----------------------------------------------------------------------------
+
+MOSCOW
+----------------------------------------------------------------------------
+  11:45AM   --   24 degrees F    --    Snow Showers    --    CALM
 ----------------------------------------------------------------------------
