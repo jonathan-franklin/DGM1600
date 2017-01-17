@@ -1,5 +1,8 @@
-This file will log temperature, precipitation, and wind speeds in Orem, UT, on an hourly basis.
+This file will log temperature, precipitation, and wind speeds in Orem, UT, 
+and Shanghai, China, on an hourly basis.
 
+UTAH
+----------------------------------------------------------------------------
 WEDNESDAY JANUARY 11, 2017
   12:56AM   --   40 degrees F    --    N/A             --    11 mph
   01:56AM   --   43 degrees F    --    Light Rain      --    15 mph
@@ -38,3 +41,4 @@ THURSDAY JANUARY 12, 2017
   09:58AM   --   34 degrees F    --    Light Snow/Mist --    CALM
   11:00AM   --   33 degrees F    --    Snow Showers    --    6 mph
   12:04PM   --   32 degrees F    --    Snow Showers    --    4 mph
+----------------------------------------------------------------------------
