@@ -7,3 +7,5 @@ by the instructor for this project. I understand that copying
 source code from any other source constitutes cheating, and that I will
 receive a zero grade on this project if I am found in violation of
 this policy.
+
+This repository contains code for both DGM1600 and DGM260R.
