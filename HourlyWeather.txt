@@ -1,5 +1,5 @@
 This file will log temperature, precipitation, and wind speeds in Orem, UT;
-Shanghai, China; Moscow, Russia; and *** on an hourly basis.
+Shanghai, China; Moscow, Russia; and Oslo, Norway on an hourly basis.
 
 UTAH
 ----------------------------------------------------------------------------
@@ -51,4 +51,9 @@ SHANGHAI
 MOSCOW
 ----------------------------------------------------------------------------
   11:45AM   --   24 degrees F    --    Snow Showers    --    CALM
+----------------------------------------------------------------------------
+
+OSLO
+----------------------------------------------------------------------------
+  11:56AM   --   30 degrees F    --    Light Frz Rain  --    4 mph
 ----------------------------------------------------------------------------
