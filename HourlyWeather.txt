@@ -1,6 +1,6 @@
 This file will log temperature, precipitation, and wind speeds in Orem, UT;
-Shanghai, China; Moscow, Russia; Baltimore, MD; Salt Lake City, UT; Sao Paulo, Brazil; 
-and Oslo, Norway on an hourly basis.
+Shanghai, China; Moscow, Russia; Baltimore, MD; Salt Lake City, UT; Sao Paulo, Brazil;
+New Delhi, India; and Oslo, Norway on an hourly basis.
 
 UTAH
 ----------------------------------------------------------------------------
@@ -72,4 +72,9 @@ SALT LAKE CITY
 SAO PAULO
 ----------------------------------------------------------------------------
   11:13AM   --   70 degrees F    --    Light Rain      --    7 mph
+----------------------------------------------------------------------------
+
+NEW DELHI
+----------------------------------------------------------------------------
+  11:16AM   --   52 degrees F    --    Fog             --    8 mph
 ----------------------------------------------------------------------------
