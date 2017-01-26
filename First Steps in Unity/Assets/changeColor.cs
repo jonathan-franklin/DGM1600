@@ -1,41 +1,43 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System.Collections;
 
-public class changeColor : MonoBehaviour
+// This class will change the color of applicable objects when certain keys are pressed.
+public class changeColor : MonoBehaviour 
 {
+	// Update is called once per frame
+	void Update () 
+	{
+		// If the R key is pressed, change the color of the object to red.
+		if (Input.GetKeyDown (KeyCode.R))
+			GetComponent<Renderer> ().material.color = Color.red;
 
-    // Use this for initialization
-    void Start()
-    {
+		// If the C key is pressed, change the color of the object to cyan.
+		if (Input.GetKeyDown (KeyCode.C))
+			GetComponent<Renderer> ().material.color = Color.cyan;
 
-    }
+		// If the M key is pressed, change the color of the object to magenta.
+		if (Input.GetKeyDown (KeyCode.M))
+			GetComponent<Renderer> ().material.color = Color.magenta;
 
-    // Update is called once per frame
-    void Update ()
-    {
-        //If "r" key is pressed, object color will be changed to red.
-	    if(Input.GetKeyDown(KeyCode.R))
-        {
-            GetComponent<Renderer>().material.color = Color.red;
-        }	
+		// If the G key is pressed, change the color of the object to green.
+		if (Input.GetKeyDown (KeyCode.G))
+			GetComponent<Renderer> ().material.color = Color.green;
+		
+		// If the B key is pressed, change the color of the object to blue.
+		if (Input.GetKeyDown (KeyCode.B))
+			GetComponent<Renderer> ().material.color = Color.blue;
+		
+		// If the Esc key is pressed, change the color of the object to yellow.
+		if (Input.GetKeyDown (KeyCode.Escape))
+			GetComponent<Renderer> ().material.color = Color.yellow;
 
-        //If "g" key is pressed, object color will be changed to green.
-        if(Input.GetKeyDown(KeyCode.G))
-        {
-            GetComponent<Renderer>().material.color = Color.green;
-        }
-        
-        //If "m" key is pressed, object color will be changed to magenta.
-        if(Input.GetKeyDown(KeyCode.M))
-        {
-            GetComponent<Renderer>().material.color = Color.magenta;
-        }
+		// If the space bar is pressed, change the color of the object to black.
+		if (Input.GetKeyDown (KeyCode.Space))
+			GetComponent<Renderer> ().material.color = Color.black;
 
-        //If "c" key is pressed, object color will be changed to clear.
-        if(Input.GetKeyDown(KeyCode.C))
-        {
-            GetComponent<Renderer>().material.color = Color.clear;
-        }
-	}
+		// If the Delete key is pressed, change the color of the object to white.
+		if (Input.GetKeyDown (KeyCode.Delete))
+			GetComponent<Renderer> ().material.color = Color.white;
+
+		}
 }
