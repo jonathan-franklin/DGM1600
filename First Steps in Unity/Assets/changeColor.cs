@@ -38,6 +38,5 @@ public class changeColor : MonoBehaviour
 		// If the Delete key is pressed, change the color of the object to white.
 		if (Input.GetKeyDown (KeyCode.Delete))
 			GetComponent<Renderer> ().material.color = Color.white;
-
 		}
 }
