@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// Gives assigned objects a rotation attribute.
 public class rotate : MonoBehaviour 
 {
     public float speed;

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// This class provides movement behaviour for assigned objects.
 public class move : MonoBehaviour 
 {
 
