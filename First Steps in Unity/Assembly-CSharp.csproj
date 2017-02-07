@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\changeColor.cs" />
+     <Compile Include="Assets\geometry.cs" />
      <Compile Include="Assets\move.cs" />
      <Compile Include="Assets\rotate.cs" />
  <Reference Include="UnityEngine.UI">
