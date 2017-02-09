@@ -73,5 +73,10 @@ public class IfAssignment : MonoBehaviour
 		{
 			print("STOP IT.");
 		}
+		
+		if (fancyInteger == crappyFloat)
+		{
+			print("This isn't right. Actually, I suppose crappiness and fanciness are not mutually exclusive.");
+		}
 	}
 }
