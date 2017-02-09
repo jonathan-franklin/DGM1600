@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Geometry.cs" />
-     <Compile Include="Assets\IfStatement.cs" />
+     <Compile Include="Assets\IfAssignment.cs" />
      <Compile Include="Assets\changeColor.cs" />
      <Compile Include="Assets\move.cs" />
      <Compile Include="Assets\rotate.cs" />
