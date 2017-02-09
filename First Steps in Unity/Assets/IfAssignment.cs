@@ -25,9 +25,13 @@ public class IfAssignment : MonoBehaviour
 		{
 			print("You are indeed a fancy integer.");
 		}
-		else 
+		else if (fancyInteger < 4)
 		{
 			print("You are an inferior int. Leave my sight.");
+		}
+		else
+		{
+			print("You are above me.");
 		}
 
 		if (crappyFloat == 7.0f)
@@ -55,6 +59,10 @@ public class IfAssignment : MonoBehaviour
 		else if (obsceneString == "Halp")
 		{
 			print("You've come to the right place. I will teach you how to do the swears.");
+		}
+		else
+		{
+			print("Keep it basic, this program is pretty rudimentary.");
 		}
 
 		if (amIFalse == true)
