@@ -19,12 +19,12 @@ using System;
 public class Geometry : MonoBehaviour
 {
     // Setting class constants
-    private const double pi = Math.PI;
-    private const double sphereVolMultiplier = (4 / 3);
-    private const int radiusExponent = 2;
-    private const int radiusSphereExponent = 3;
-    private const int radiusMultiplier = 2;
-    private const int triAreaDivider = 2;
+    private const double PI = Math.PI;
+    private const double SPHERE_VOLUME_MULTIPLIER = (4 / 3);
+    private const int RADIUS_EXPONENT = 2;
+    private const int RADIUS_SPHERE_EXPONENT = 3;
+    private const int RADIUS_MULTIPLIER = 2;
+    private const int TRI_AREA_DIVIDER = 2;
 
     // Setting class variables
     public int triBase;
@@ -96,28 +96,28 @@ public class Geometry : MonoBehaviour
     // This method calculates the area of a circle.
     public double areaCircle()
     {
-        circleArea = (Math.Pow(radius, radiusExponent)) * pi; // A = (r ^ 2) * pi
+        circleArea = (Math.Pow(radius, RADIUS_EXPONENT)) * PI; // A = (r ^ 2) * pi
 		return circleArea;
 	}
 
 	// This method calculates the diameter of a circle.
 	public double diameterCircle ()
 	{
-		circleDiameter = radius * radiusMultiplier; // d = 2r
+		circleDiameter = radius * RADIUS_MULTIPLIER; // d = 2r
 		return circleDiameter;
 	}
 
 	// This method calculates the circumference of a circle.
 	public double circumferenceCircle ()
 	{
-		circleCircumference = circleDiameter * pi; // c = pi * d, OR c = 2 * pi * r
+		circleCircumference = circleDiameter * PI; // c = pi * d, OR c = 2 * pi * r
 		return circleCircumference;
 	}
 
 	// This method calculates the volume of a sphere.
 	public double volumeSphere ()
 	{
-		sphereVolume = sphereVolMultiplier * pi * (Math.Pow(radius, radiusSphereExponent)); // (4/3) * pi * (r^3)
+		sphereVolume = SPHERE_VOLUME_MULTIPLIER * PI * (Math.Pow(radius, RADIUS_SPHERE_EXPONENT)); // (4/3) * pi * (r^3)
 		return sphereVolume;
 	}
 
@@ -138,7 +138,7 @@ public class Geometry : MonoBehaviour
 	// This method calculates the area of a triangle.
 	public double areaTriangle ()
 	{
-		triArea = (triBase * height) / triAreaDivider; // A = (b * h) / 2
+		triArea = (triBase * height) / TRI_AREA_DIVIDER; // A = (b * h) / 2
 		return triArea;
 	}
 }

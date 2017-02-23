@@ -80,6 +80,7 @@
     <Compile Include="Assets\IfAssignment.cs" />
     <Compile Include="Assets\Reset.cs" />
     <Compile Include="Assets\SwitchAssignment.cs" />
+    <Compile Include="Assets\WhileLoops.cs" />
     <Compile Include="Assets\changeColor.cs" />
     <Compile Include="Assets\move.cs" />
     <Compile Include="Assets\rotate.cs" />
