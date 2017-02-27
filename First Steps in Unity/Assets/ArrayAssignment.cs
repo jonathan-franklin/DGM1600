@@ -25,7 +25,7 @@ public class ArrayAssignment : MonoBehaviour
 	
     public void story ()
     {
-        print("In the age of " + ageArray[Random.Range(0, 5)] + ", a great war broke out between the " + raceOneArray[Random.Range(0, 5)] + " and the " + raceTwoArray[Random.Range(0, 5)] + ". After " + yearsArray[Random.Range(0, 5)] + " years of conflict and " + describerArray[Random.Range(0, 5)] + ", a peace treaty was brokered. A royal marriage was arranged between " + marryOneArray[Random.Range(0, 5)] + " and " + marryTwoArray[Random.Range(0, 5)] + ", and the world was " + aftermathArray[Random.Range(0, 5)] + ". Thirty years later, a cosmic " + cosmicBeingArray[Random.Range(0, 5)] + " emerged and consumed the " + consumedArray[Random.Range(0, 5)] + ". The end.");
+        print("In the age of " + ageArray[Random.Range(0, ageArray.Length)] + ", a great war broke out between the " + raceOneArray[Random.Range(0, raceOneArray.Length)] + " and the " + raceTwoArray[Random.Range(0, raceTwoArray.Length)] + ". After " + yearsArray[Random.Range(0, yearsArray.Length)] + " years of conflict and " + describerArray[Random.Range(0, describerArray.Length)] + ", a peace treaty was brokered. A royal marriage was arranged between " + marryOneArray[Random.Range(0, marryOneArray.Length)] + " and " + marryTwoArray[Random.Range(0, marryTwoArray.Length)] + ", and the world was " + aftermathArray[Random.Range(0, aftermathArray.Length)] + ". Thirty years later, a cosmic " + cosmicBeingArray[Random.Range(0, cosmicBeingArray.Length)] + " emerged and consumed the " + consumedArray[Random.Range(0, consumedArray.Length)] + ". The end.");
     }
 
 
