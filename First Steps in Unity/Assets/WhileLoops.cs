@@ -31,7 +31,6 @@ public class WhileLoops : MonoBehaviour
     private int negSpread;
     private int posSpread;
     private int attemptCount;
-    private int timerVal;
     private bool isCorrect;
 
     // Declaring class constants
@@ -48,7 +47,6 @@ public class WhileLoops : MonoBehaviour
         negSpread = 0;
         posSpread = 0;
         attemptCount = 0;
-        timerVal = 0;
         isCorrect = false;
     }
 

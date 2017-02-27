@@ -75,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ArrayAssignment.cs" />
     <Compile Include="Assets\ElseAssignment.cs" />
     <Compile Include="Assets\Geometry.cs" />
     <Compile Include="Assets\IfAssignment.cs" />
