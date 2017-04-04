@@ -16,10 +16,29 @@ using UnityEngine;
 public class RandomList : MonoBehaviour
 {
 
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start ()
     {
-		
+        ListGenerator();
 	}
-	
+
+    // This unparameterized method provides a default value
+    public void ListGenerator()
+    {
+        ListGenerator(5);
+    }
+
+    // This function generates a list of random numbers of size determined by the supplied argument.
+    public List<int> ListGenerator (int co)
+    {
+        int count = co;
+        List<int> numbers = new List<int>(count);
+
+        for (int i = 0; i < count; i++)
+        {
+            numbers.Add(Random.Range(0,100));
+        }
+
+        return numbers;
+    }
 }

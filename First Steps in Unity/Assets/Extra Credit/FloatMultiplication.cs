@@ -40,7 +40,8 @@ public class FloatMultiplication : MonoBehaviour
     // This method solves for the product of the three multiplier variables.
     public void FloatMultiplier ()
     {
-        product = firstMultiplier + secondMultiplier + thirdMultiplier;
+        product = firstMultiplier * secondMultiplier * thirdMultiplier;
+        print("The product of " + firstMultiplier + " and " + secondMultiplier + " and " + thirdMultiplier + " equals " + product);
     }
 
 }

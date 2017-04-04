@@ -28,7 +28,7 @@ public class NameColorArrays : MonoBehaviour
         string[] names = { "Sonya", "Schnell", "Chanelle", "Belial", "Jefferson" };
         string[] colors = { "cyan", "salmon", "beige", "magenta", "yellow" };
 
-        print(names[0, names.Length] + "'s favorite color is " + colors[0, colors.Length] + ".");
+        print(names[Random.Range(0, names.Length)] + "'s favorite color is " + colors[Random.Range(0, colors.Length)] + ".");
     }
 
 }

@@ -1,7 +1,4 @@
 sceneSetups:
-- path: Assets/firstTestScene.unity
-  isLoaded: 1
-  isActive: 0
-- path: Assets/oldUnityScene.unity
+- path: Assets/ExtraCreditExercises.unity
   isLoaded: 1
   isActive: 1

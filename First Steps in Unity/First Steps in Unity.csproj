@@ -77,9 +77,14 @@
   <ItemGroup>
     <Compile Include="Assets\ArrayAssignment.cs" />
     <Compile Include="Assets\ElseAssignment.cs" />
+    <Compile Include="Assets\Extra Credit\AddingFunction.cs" />
+    <Compile Include="Assets\Extra Credit\DivisibleByThree.cs" />
     <Compile Include="Assets\Extra Credit\FloatMultiplication.cs" />
+    <Compile Include="Assets\Extra Credit\MultiplicationTable.cs" />
     <Compile Include="Assets\Extra Credit\NameColorArrays.cs" />
     <Compile Include="Assets\Extra Credit\RandomList.cs" />
+    <Compile Include="Assets\Extra Credit\RandomNumberListGenerator.cs" />
+    <Compile Include="Assets\Extra Credit\StringToFloat.cs" />
     <Compile Include="Assets\ForEachAssignment.cs" />
     <Compile Include="Assets\Geometry.cs" />
     <Compile Include="Assets\IfAssignment.cs" />

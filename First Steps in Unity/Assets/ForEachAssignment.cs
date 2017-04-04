@@ -1,11 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ForEachAssignment : MonoBehaviour 
 {
 	public List<string> animals;
 	public List<string> dogs;
 	public List<string> cats;
+    public string animal;
 
 	// Use this for initialization
 	void Start () 
@@ -51,9 +53,4 @@ public class ForEachAssignment : MonoBehaviour
 		}
 	}
 	
-	// Update is called once per frame
-	void Update () 
-	{
-	
-	}
 }
