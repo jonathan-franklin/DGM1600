@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: beb05a9fc4feba545b1d89be920c8a38
-timeCreated: 1492050977
+guid: 981b3ca67773b21458095950eed712bb
+timeCreated: 1493166485
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ButtonBorder_0
+    21300000: Panel Borders_0
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -28,7 +28,7 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: 1
+    filterMode: -1
     aniso: -1
     mipBias: -1
     wrapMode: 1
@@ -40,7 +40,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 4, y: 25, z: 4, w: 30}
+  spriteBorder: {x: 22, y: 84, z: 20, w: 95}
   spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -71,16 +71,16 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ButtonBorder_0
+      name: Panel Borders_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 22
-        width: 62
-        height: 16
+        x: 3
+        y: 66
+        width: 186
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 3, y: 2, z: 3, w: 4}
+      border: {x: 17, y: 18, z: 14, w: 16}
       outline: []
       tessellationDetail: 0
     outline: []
