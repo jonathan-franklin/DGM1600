@@ -9,4 +9,10 @@ public class LoadScene : MonoBehaviour
     {
         SceneManager.LoadScene(sceneIndex);
     }
+
+    public void ResetScene ()
+    {
+        Scene loadedLevel = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(loadedLevel.buildIndex);
+    }
 }
